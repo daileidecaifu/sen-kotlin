@@ -34,4 +34,24 @@ class TitleBar {
     fun setRightVisibility(currentVisibility: Int) {
         layoutRight?.visibility = currentVisibility
     }
+
+    fun setCommonRightText(content: String) {
+        textViewRight?.text = content
+    }
+
+    fun setTitle(title: String) {
+        textViewTitle?.text = title
+    }
+
+    fun setLeftCickEvent(listener: View.OnClickListener) {
+        layoutLeft?.setOnClickListener(listener)
+    }
+
+    fun setRightCickEvent(listener: View.OnClickListener) {
+        layoutRight?.setOnClickListener(listener)
+    }
+
+    fun setBackground(color: Int) {
+        mainLayout?.setBackgroundColor(color)
+    }
 }

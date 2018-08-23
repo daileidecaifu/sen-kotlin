@@ -1,8 +1,7 @@
-package ld.com.sen_kotlin
+package ld.com.senkotlin
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

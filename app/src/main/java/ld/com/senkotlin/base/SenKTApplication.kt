@@ -1,4 +1,4 @@
-package ld.com.sen_kotlin.base
+package ld.com.senkotlin.base
 
 import android.app.Application
 
@@ -18,4 +18,5 @@ class SenKTApplication : Application() {
         instance = this
 
     }
+
 }

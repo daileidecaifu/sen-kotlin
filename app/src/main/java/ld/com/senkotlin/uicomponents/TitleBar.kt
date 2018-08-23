@@ -1,4 +1,4 @@
-package ld.com.sen_kotlin.uicomponents
+package ld.com.senkotlin.uicomponents
 
 import android.view.View
 import android.widget.LinearLayout

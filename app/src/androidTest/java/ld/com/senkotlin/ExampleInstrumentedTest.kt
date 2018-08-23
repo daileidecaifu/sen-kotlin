@@ -1,4 +1,4 @@
-package ld.com.sen_kotlin
+package ld.com.senkotlin
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
